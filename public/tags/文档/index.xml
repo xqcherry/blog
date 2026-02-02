@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>文档 on xqcherry</title>
+    <link>http://localhost:1313/tags/%E6%96%87%E6%A1%A3/</link>
+    <description>Recent content in 文档 on xqcherry</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 16 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%96%87%E6%A1%A3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown 语法示例</title>
+      <link>http://localhost:1313/posts/markdown%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/</link>
+      <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/markdown%E8%AF%AD%E6%B3%95%E7%A4%BA%E4%BE%8B/</guid>
+      <description>&lt;p&gt;这是一篇展示 Markdown 各种语法的示例文章。&lt;/p&gt;&#xA;&lt;h2 id=&#34;标题&#34;&gt;&#xD;&#xA;  标题&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e6%a0%87%e9%a2%98&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Markdown 支持 6 级标题：&lt;/p&gt;&#xA;&lt;h1 id=&#34;一级标题&#34;&gt;&#xD;&#xA;  一级标题&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80%e7%ba%a7%e6%a0%87%e9%a2%98&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h1&gt;&#xD;&#xA;&lt;h2 id=&#34;二级标题&#34;&gt;&#xD;&#xA;  二级标题&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%ba%8c%e7%ba%a7%e6%a0%87%e9%a2%98&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;h3 id=&#34;三级标题&#34;&gt;&#xD;&#xA;  三级标题&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%89%e7%ba%a7%e6%a0%87%e9%a2%98&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;h4 id=&#34;四级标题&#34;&gt;&#xD;&#xA;  四级标题&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e5%9b%9b%e7%ba%a7%e6%a0%87%e9%a2%98&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h4&gt;&#xD;&#xA;&lt;h5 id=&#34;五级标题&#34;&gt;&#xD;&#xA;  五级标题&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%ba%94%e7%ba%a7%e6%a0%87%e9%a2%98&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h5&gt;&#xD;&#xA;&lt;h6 id=&#34;六级标题&#34;&gt;&#xD;&#xA;  六级标题&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e5%85%ad%e7%ba%a7%e6%a0%87%e9%a2%98&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h6&gt;</description>
+    </item>
+  </channel>
+</rss>

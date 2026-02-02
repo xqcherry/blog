@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>代码 on xqcherry</title>
+    <link>http://localhost:1313/tags/%E4%BB%A3%E7%A0%81/</link>
+    <description>Recent content in 代码 on xqcherry</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 18 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E4%BB%A3%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>代码高亮和数学公式</title>
+      <link>http://localhost:1313/posts/%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E5%92%8C%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</link>
+      <pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E5%92%8C%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</guid>
+      <description>&lt;p&gt;Hugo 支持代码语法高亮和数学公式渲染，这对于技术博客来说非常重要。&lt;/p&gt;&#xA;&lt;h2 id=&#34;代码语法高亮&#34;&gt;&#xD;&#xA;  代码语法高亮&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%bb%a3%e7%a0%81%e8%af%ad%e6%b3%95%e9%ab%98%e4%ba%ae&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Hugo 使用 Chroma 进行代码高亮，支持多种编程语言。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

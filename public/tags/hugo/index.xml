@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on xqcherry</title>
+    <link>http://localhost:1313/tags/hugo/</link>
+    <description>Recent content in Hugo on xqcherry</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 18 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>代码高亮和数学公式</title>
+      <link>http://localhost:1313/posts/%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E5%92%8C%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</link>
+      <pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E5%92%8C%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/</guid>
+      <description>&lt;p&gt;Hugo 支持代码语法高亮和数学公式渲染，这对于技术博客来说非常重要。&lt;/p&gt;&#xA;&lt;h2 id=&#34;代码语法高亮&#34;&gt;&#xD;&#xA;  代码语法高亮&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%bb%a3%e7%a0%81%e8%af%ad%e6%b3%95%e9%ab%98%e4%ba%ae&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Hugo 使用 Chroma 进行代码高亮，支持多种编程语言。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>使用 Hugo 搭建静态博客</title>
+      <link>http://localhost:1313/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</guid>
+      <description>&lt;p&gt;Hugo 是一个用 Go 语言编写的静态网站生成器，以其极快的构建速度而闻名。本文将介绍如何使用 Hugo 搭建一个静态博客。&lt;/p&gt;&#xA;&lt;h2 id=&#34;为什么选择-hugo&#34;&gt;&#xD;&#xA;  为什么选择 Hugo？&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%80%89%e6%8b%a9-hugo&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;速度极快&lt;/strong&gt;：Hugo 的构建速度是其他静态网站生成器的 10-100 倍&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;简单易用&lt;/strong&gt;：使用 Markdown 编写内容，无需数据库&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;功能丰富&lt;/strong&gt;：支持多语言、主题、短代码等&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;部署方便&lt;/strong&gt;：生成的静态文件可以部署到任何地方&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>欢迎来到我的博客</title>
+      <link>http://localhost:1313/posts/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/</guid>
+      <description>&lt;p&gt;欢迎来到我的个人博客！这里是记录我学习、思考和分享的地方。&lt;/p&gt;&#xA;&lt;h2 id=&#34;关于这个博客&#34;&gt;&#xD;&#xA;  关于这个博客&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e5%85%b3%e4%ba%8e%e8%bf%99%e4%b8%aa%e5%8d%9a%e5%ae%a2&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;这个博客使用 &lt;a href=&#34;https://gohugo.io/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt; 静态网站生成器构建，主题是基于 hugo-coder 修改的。选择 Hugo 是因为它：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;速度快&lt;/strong&gt;：生成静态页面，访问速度极快&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;简单易用&lt;/strong&gt;：使用 Markdown 编写，专注内容创作&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;功能强大&lt;/strong&gt;：支持代码高亮、数学公式、多语言等&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

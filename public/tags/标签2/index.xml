@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>标签2 on xqcherry</title>
+    <link>http://localhost:1313/tags/%E6%A0%87%E7%AD%BE2/</link>
+    <description>Recent content in 标签2 on xqcherry</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 29 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%A0%87%E7%AD%BE2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的第一篇文章</title>
+      <link>http://localhost:1313/posts/example/</link>
+      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/example/</guid>
+      <description>&lt;p&gt;这里是文章内容，支持 Markdown 语法。&lt;/p&gt;&#xA;&lt;h2 id=&#34;我的第一篇文章&#34;&gt;&#xD;&#xA;  我的第一篇文章&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e6%88%91%e7%9a%84%e7%ac%ac%e4%b8%80%e7%af%87%e6%96%87%e7%ab%a0&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Hello，World!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
