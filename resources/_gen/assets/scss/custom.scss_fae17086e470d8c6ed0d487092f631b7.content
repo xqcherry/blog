@@ -1,83 +1,112 @@
 @charset "UTF-8";
-/* 中文字体优化 */
-/* 优化中文字体栈 - 优先使用系统字体 */
-body,
-.content {
-  font-family: -apple-system,  BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, Arial, "WenQuanYi Micro Hei", sans-serif;
-  /* 字体渲染优化 */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  /* 中文排版优化 */
+*:not(.fa):not(.fas):not(.far):not(.fab):not(.fal):not(.fad):not([class*="fa-"]) {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, Arial, "WenQuanYi Micro Hei", "Noto Sans CJK SC", "Source Han Sans CN", sans-serif !important; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, Arial, "WenQuanYi Micro Hei", "Noto Sans CJK SC", "Source Han Sans CN", sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  text-rendering: optimizeLegibility !important;
   line-height: 1.8;
-  /* 移除字间距，让对齐更自然 */
   letter-spacing: 0;
   word-spacing: 0; }
 
-/* 段落优化 - 使用更具体的选择器覆盖主题样式 */
-.content article p,
-.content p,
-article p,
-p {
-  line-height: 1.9;
-  text-align: justify !important;
-  /* 确保覆盖主题样式 */
-  text-justify: inter-ideograph !important;
-  /* 中文两端对齐，优先级更高 */
-  word-break: break-word;
-  overflow-wrap: break-word;
-  /* 移除字间距，让对齐更自然 */
-  letter-spacing: 0;
-  word-spacing: 0; }
+.navigation a,
+.navigation span {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, Arial, "WenQuanYi Micro Hei", "Noto Sans CJK SC", "Source Han Sans CN", sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  text-rendering: optimizeLegibility !important; }
 
-/* 标题优化 */
+.navigation .fa, .navigation .fas, .navigation .far, .navigation .fab, .navigation .fal, .navigation .fad,
+.navigation [class*="fa-"] {
+  font-family: var(--fa-style-family, "Font Awesome 6 Free") !important;
+  font-family: 'Font Awesome 6 Free' !important;
+  font-family: 'Font Awesome 6 Brands' !important; }
+
 h1, h2, h3, h4, h5, h6 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, Arial, "WenQuanYi Micro Hei", "Noto Sans CJK SC", "Source Han Sans CN", sans-serif !important;
   font-weight: 600;
   line-height: 1.5;
-  letter-spacing: 0.02em; }
+  letter-spacing: 0.02em;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important; }
 
-/* 列表优化 */
+p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, Arial, "WenQuanYi Micro Hei", "Noto Sans CJK SC", "Source Han Sans CN", sans-serif !important;
+  line-height: 1.9;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  letter-spacing: 0;
+  word-spacing: 0; }
+
 ul, ol {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, Arial, "WenQuanYi Micro Hei", "Noto Sans CJK SC", "Source Han Sans CN", sans-serif !important;
   line-height: 1.9; }
+  ul li, ol li {
+    margin: 0.5em 0;
+    line-height: 1.9; }
 
-li {
-  margin: 0.5em 0;
-  line-height: 1.9; }
-
-/* 代码块保持等宽字体 */
-code,
-pre {
-  font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Code", "Droid Sans Mono", "Source Code Pro", "Consolas", "Liberation Mono", "Menlo", monospace; }
-
-/* 链接优化 */
-a {
-  text-decoration: none;
-  transition: color 0.2s ease; }
-
-/* 文章内容区域优化 - 覆盖主题样式 */
 .post-content,
-.content article {
-  text-align: justify !important;
-  text-justify: inter-ideograph !important; }
+.content article,
+article {
+  text-align: justify;
+  text-justify: inter-ideograph; }
+  .post-content p,
+  .content article p,
+  article p {
+    text-align: justify;
+    text-justify: inter-ideograph; }
 
-/* 移动端优化 */
 @media only screen and (max-width: 768px) {
   body {
     line-height: 1.7;
     letter-spacing: 0; }
-  .content article p,
-  .content p,
-  article p,
   p {
     line-height: 1.8;
-    text-align: left !important;
-    /* 移动端左对齐更易读 */
-    text-justify: auto !important;
-    /* 移动端不需要两端对齐 */ } }
+    text-align: left;
+    text-justify: auto; }
+  .post-content,
+  .content article,
+  article {
+    text-align: left; }
+    .post-content p,
+    .content article p,
+    article p {
+      text-align: left;
+      text-justify: auto; } }
 
-/* 深色模式优化 */
-.colorscheme-dark body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+.colorscheme-dark body,
+.colorscheme-dark .navigation a,
+.colorscheme-dark .navigation span {
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important; }
+
+div:not([class*="fa-"]):not(.fa):not(.fas):not(.far):not(.fab),
+span:not([class*="fa-"]):not(.fa):not(.fas):not(.far):not(.fab),
+a:not([class*="fa-"]):not(.fa):not(.fas):not(.far):not(.fab),
+p, li, td, th, label, input, textarea, select, button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, Arial, "WenQuanYi Micro Hei", "Noto Sans CJK SC", "Source Han Sans CN", sans-serif !important; }
+
+.fas, .fa-solid {
+  font-family: 'Font Awesome 6 Free' !important; }
+
+.far, .fa-regular {
+  font-family: 'Font Awesome 6 Free' !important; }
+
+.fab, .fa-brands {
+  font-family: 'Font Awesome 6 Brands' !important; }
+
+.fa {
+  font-family: 'Font Awesome 6 Free' !important; }
+
+[class*="fa-"] {
+  font-family: 'Font Awesome 6 Free' !important; }
+
+[class*="fa-brands"],
+.fab {
+  font-family: 'Font Awesome 6 Brands' !important; }
 
 /*# sourceMappingURL=custom.css.map */

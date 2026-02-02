@@ -55,7 +55,7 @@ maxSeeAlsoItems = 5
 # Custom CSS
 customCSS = []
 # Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
-customSCSS = []
+customSCSS = ["scss/custom.scss"]
 
 # Custom JS
 customJS = []
@@ -163,9 +163,9 @@ url = "https://xqcherry-blog.vercel.app/index.xml"
 rel = "alternate"
 type = "application/rss+xml"
 
-# 中文配置（默认语言）
+# 中文配置
 [languages.zh-cn]
-languageName = ":cn:"
+languageName = "CN"
 title = "xqcherry"
 
 [languages.zh-cn.params]
@@ -194,9 +194,9 @@ name = "联系我"
 weight = 5
 url = "contact/"
 
-# 英文配置（第二语言）
+# 英文配置
 [languages.en]
-languageName = ":uk:"
+languageName = "EN"
 title = "xqcherry"
 
 [languages.en.params]
