@@ -5,6 +5,7 @@ theme = "hugo-coder" # 基于hugo-coder修改
 languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"
 enableEmoji = true
+canonifyURLs = false
 
 # 分页设置
 [pagination]
